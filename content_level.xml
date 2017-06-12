@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#934bca"
+    android:weightSum="1">
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="MEDIUM"
+        android:id="@+id/medium"
+        android:layout_below="@+id/easy"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="#0a25f2"
+        android:textSize="20dp"
+        android:textColor="#060606"
+        android:textStyle="bold" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="HARD"
+        android:id="@+id/hard"
+        android:layout_marginTop="40dp"
+        android:layout_below="@+id/medium"
+        android:layout_alignLeft="@+id/medium"
+        android:layout_alignStart="@+id/medium"
+        android:background="#1af906"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#050505" />
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="EASY"
+        android:id="@+id/easy"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="#fa0606"
+        android:textSize="20dp"
+        android:textColor="#060606"
+        android:textStyle="bold" />
+</RelativeLayout>
